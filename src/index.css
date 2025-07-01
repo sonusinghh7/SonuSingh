@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: SignatureFont;
+  src: url(/public/fonts/SignaturexDemoRegular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Poppins&display=swap');
+
+@theme {
+    --font-hello: Poppins, "sans-serif";
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
