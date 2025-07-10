@@ -18,14 +18,14 @@ click here for [**Live Preview**](https://sonusingh.vercel.app)
 - ✅ Smooth animations and improved visual elements.
 - ✅ Working on **Desktop Version** (UI updates in progress).
 
-## ⚒️ Technologies UsedAdd commentMore actions
+## ⚒️ Technologies Used
 
-## Expanding the ESLint configuration
 - **Frontend:**
   - React.js
   - Tailwind CSS
   - Vite (for fast build and development)
-  - 
+  - Vercel (for frontend deployment)
+
 - **Backend (In Future):**
   - Express.js (Node.js)
   - Database Integration (MongoDB, SQL - upcoming)
