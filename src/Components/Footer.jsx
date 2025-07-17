@@ -13,7 +13,7 @@ const Footer = () => {
           by <span className='font-custom ml-1 text-sm mt-3 rotate-[-12deg]'>Sonu</span></p>
 
       <div className='flex items-center space-x-2 text-sm lg:text-base cursor-pointer'>
-        <span>Built with</span> <FaReact className='text-lg lg:text-2xl' /> <RiTailwindCssFill className='text-lg lg:text-2xl' /> <span className='hidden lg:flex text-sm text-gray-600 font-extrabold'>(V 2.1.0)</span> </div>
+        <span>Built with</span> <FaReact className='text-lg lg:text-2xl' /> <RiTailwindCssFill className='text-lg lg:text-2xl' /> <span className='hidden lg:flex text-sm text-gray-600 font-extrabold'>(V 2.1.1)</span> </div>
 
     </div>
   );
