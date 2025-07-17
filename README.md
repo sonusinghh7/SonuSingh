@@ -11,12 +11,15 @@ click here for [**Live Preview**](https://sonusingh.vercel.app)
 
 ---
 
-## 📢 Version 2 Updates
+## 📢 Version 2.1.2 Updates
 
 - ✅ Major improvements in **Mobile UI** for better responsiveness and user experience.
 - ✅ Added **Light/Dark Mode** functionality.
 - ✅ Smooth animations and improved visual elements.
-- ✅ Working on **Desktop Version** (UI updates in progress).
+- ✅ Responsive on Desktop.
+- ✅ Light Dark mode in Desktop version 
+- ✅ fix project card size and space 
+- ✅ fix small bugs
 
 ## ⚒️ Technologies Used
 
