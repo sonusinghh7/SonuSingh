@@ -17,7 +17,7 @@ click here for [**Live Preview**](https://sonusingh.vercel.app)
 - ✅ Added **Light/Dark Mode** functionality.
 - ✅ Smooth animations and improved visual elements.
 - ✅ Responsive on Desktop.
-- ✅ Light Dark mode in Desktop version 
+- ✅ Light Dark mode in Desktop version (toogle btn for mobile, Dropdown for Desktop)
 - ✅ fix project card size and space 
 - ✅ fix small bugs
 
