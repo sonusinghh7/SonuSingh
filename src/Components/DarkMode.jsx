@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { FaSun, FaMoon } from "react-icons/fa";
 
-const DarkMode = ({ className = '' }) => {
+const DarkMode = ({ className = "" }) => {
   const [darkMode, setDarkMode] = useState(() => {
     const savedTheme = localStorage.getItem("theme");
     if (savedTheme) return savedTheme === "dark";
