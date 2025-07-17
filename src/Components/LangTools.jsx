@@ -14,9 +14,9 @@ import { FaFigma } from "react-icons/fa";
 const LangTools = () => {
   return (
     <>
-    <div className=' text-gray-700  dark:text-white  h-28 w-full mt-4 flex flex-col  ' >
+    <div className=' text-gray-700  dark:text-white  h-28 w-full lg:w-80 lg:ml-40 mt-4 flex flex-col ' >
 
-        <div className=' h-1/2 w-full flex relative text-4xl items-center justify-around'> 
+        <div className=' h-1/2 w-full flex relative text-4xl items-center justify-around '> 
             <FaHtml5 className="text-[#E44D26]  dark:text-white "  />
             <IoLogoCss3 className="text-[#264de4] dark:text-white " />
             <FaJsSquare className="text-[#F0DB4F] dark:text-white " />

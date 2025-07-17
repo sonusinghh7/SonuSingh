@@ -3,6 +3,7 @@ import Header from './Components/Header';
 import Intro from './Components/Intro'
 import LangTools from './Components/LangTools';
 import Projects from './Components/Projects';
+import SocialMedia from './Components/SocialMedia';
 import Footer from './Components/Footer';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Header  />
       <Intro />
       <LangTools />
+      <SocialMedia />
       <Projects />
       <Footer />
       

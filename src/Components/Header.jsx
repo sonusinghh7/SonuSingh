@@ -20,19 +20,21 @@ const Header = () => {
 
   return (
     <>
-    <div className='bg-gray-300 dark:bg-[#080808] h-20 w-full flex absolute  lg:h-full lg:w-[280px] lg:ml-40  lg:dark:bg-[#22222]'>
+    <div className='bg-gray-300 dark:bg-[#080808] lg:dark:bg-transparent lg:bg-transparent h-20 w-full flex absolute lg:h-80 lg:w-[280px] lg:ml-40  '>
 
-        <div className='relative h-full w-72 flex  items-center  lg:items-center lg:h-20 lg:mt-28 lg:w-full lg:flex-col lg:gap-8'>
-          <img src="sonu.jpg" alt="sonu's image" className='h-14 w-14 ml-7 rounded-full border-2 border-gray-400 dark:border-gray-600 select-none lg:w-24 lg:h-24 lg:mr-10  ' />
+        <div className='relative h-full w-72 flex  items-center  lg:items-center lg:h-40 lg:mt-28 lg:w-full lg:flex-col  lg:justify-center'>
+          <img src="sonu.jpg" alt="sonu's image" className='h-14 w-14 ml-7 rounded-full border-2 border-gray-400 dark:border-gray-600 select-none lg:w-36 lg:h-36   ' />
 
 
-        <div className='h-full w-2/3 flex flex-col justify-center left-2 pt-5  relative lg:justify-center '> 
+        <div className='h-full w-3/4 flex flex-col justify-center left-2 pt-5  relative lg:justify-center  lg:ml-10 lg:mt-4  '> 
           <div className=' h-6 w-full flex items-end -mt-4 relative'>
-            <p className='text-gray-800 dark:text-white text-2xl font-bold ml-1.5  select-none lg:mt-20   '>Sonu Singh</p>     
-            <div className='ml-2 mb-2 relative flex select-none'> <VerifiedIcon /> </div>
+            <p className='text-gray-800 dark:text-white text-2xl lg:text-3xl font-bold ml-1.5  select-none lg:mt-20   '>Sonu Singh</p>     
+            <div className='ml-2 mb-2 relative flex select-none lg:scale-125 '> <VerifiedIcon /> </div>
           </div>
 
-          <div className='h-6 ml-3 text-gray-600 dark:text-[#b4b6bb] font-mono  text-sm select-none'>@sonusinghh7 </div>
+        
+          <div className='h-6 ml-3 lg:ml-2 lg:mt-4 lg:w-24 text-gray-600 dark:text-[#b4b6bb] font-mono  text-sm select-none flex'>@sonusinghh7 </div>
+          <div className=' hidden lg:flex text-gray-600 dark:text-[#b4b6bb] text-[12px] ml-28 -mt-6 lg:px-2 lg:h-6 lg:w-[85px] rounded border-2  items-center  border-gray-800 dark:border-[#b4b6bb]'>Dark Mode</div>
         </div>
           
 
