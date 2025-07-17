@@ -119,7 +119,7 @@ const HamburgerMenu = ({ className = "" }) => {
           </div>
           <div className="flex justify-end w-full">
             <p className="text-sm text-gray-800 flex items-center">
-              Version 2.1.0
+              Version 2.1.2
             </p>
           </div>
         </div>
