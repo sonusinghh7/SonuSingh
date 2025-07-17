@@ -1,5 +1,4 @@
 import React from 'react'
-import DarkMode from './DarkMode'
 import HamburgerMenu from './HamburgerMenu'
 
 
@@ -39,7 +38,6 @@ const Header = () => {
 
         </div>
 
-         <DarkMode className="right-16 top-4 absolute scale-[0.5] lg:mt-[300px] lg:left-6"/>
 
          <HamburgerMenu className=" right-6 top-5 absolute scale-[1.1]"/>
         

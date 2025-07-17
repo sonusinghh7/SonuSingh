@@ -7,7 +7,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { VscFilePdf } from "react-icons/vsc";
-
+import DarkMode from "./DarkMode"
 
 const HamburgerMenu = ({ className = '' }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,7 +34,7 @@ const HamburgerMenu = ({ className = '' }) => {
         {/* second line (middle) */}
         <div
           className={`h-[3px] dark:bg-[#F8F9FA] bg-[#121212] absolute top-3 left-1 transition-all rounded-xl duration-300 origin-center ${
-            isOpen ? 'w-0 h-0' : 'w-6'
+            isOpen ? 'w-0 h-0' : 'w-4'
           }`}
         />
         {/* third line */}
@@ -47,7 +47,7 @@ const HamburgerMenu = ({ className = '' }) => {
 
       {/* Menu content */}
       {isOpen && (
-        <div className="absolute top-16 -right-[10px] w-[85vw] max-w-sm h-[60vh] rounded-xl bg-black/10 dark:bg-white/10 backdrop-blur-xl border flex flex-col gap-2 border-white/20 text-2xl text-black dark:text-white p-6 z-20 shadow-lg overflow-y-auto ">
+        <div className="absolute top-16 -right-[10px] w-[85vw] max-w-sm h-[75vh] rounded-xl bg-black/10 dark:bg-white/10 backdrop-blur-xl border flex flex-col gap-2 border-white/20 text-2xl text-black dark:text-white p-6 z-20 shadow-lg overflow-y-auto ">
 
           <div className='flex relative gap-2 border-gray-800  dark:border-gray-100 border-2 rounded-md    w-70 h-12 items-center  hover:border-black  hover:text-white hover:dark:white hover:dark:text-black group hover:dark:bg-white hover:dark:border-white overflow-hidden transition-all duration-200 ease-in-out '>
             <div className='relative h-full  w-14 flex items-center justify-center bg-gray-400 dark:bg-white dark:text-gray-800  dark:group-hover:bg-gray-500 dark:group-hover:text-gray-200   group-hover:text-white group-hover:bg-gray-800 text-gray-200  '> <FaSearch /> </div>
@@ -61,6 +61,7 @@ const HamburgerMenu = ({ className = '' }) => {
           <a href="https://x.com/DoubleAce_7" target='_blank' className='flex gap-2 border-gray-00 border-2 rounded-md p-2  w-70 h-12 items-center md:border-none md:h-10 md:items-center md:justify-center md:w-10 hover:border-black hover:bg-black hover:text-white hover:dark:white hover:dark:text-black hover:dark:bg-white  border-gray-800 dark:border-gray-100 transition-all duration-200 ease-in-out'> <FaXTwitter /><p className='text-[20px] md:hidden'>X</p></a>
           <a href="mailto:info7sonu@gmail.com" target='_blank' className='flex gap-2 border-gray-00 border-2 rounded-md p-2  w-70 h-12 items-center md:border-none md:h-10 md:items-center md:justify-center md:w-10 hover:border-black hover:bg-black hover:text-white hover:dark:white hover:dark:text-black hover:dark:bg-white  border-gray-800  transition-all duration-200 ease-in-out dark:text-gray-800 dark:border-gray-800 hover:dark:border-white'> <IoIosMail /><p className='text-[20px] md:hidden'>Send a mail</p></a>
           <a href="/SonuResume.pdf" target='_blank' className='flex gap-2 border-gray-00 border-2 rounded-md p-2  w-70 h-12 items-center md:border-none md:h-10 md:items-center md:justify-center md:w-10 hover:border-black hover:bg-black hover:text-white hover:dark:white hover:dark:text-black hover:dark:bg-white border-gray-800   transition-all duration-200 ease-in-out dark:text-gray-800 dark:border-gray-800 hover:dark:border-white '> <VscFilePdf /><p className='text-[20px] md:hidden'>Download Resume</p></a>
+          <div className='flex gap-2 border-gray-00 border-2 dark:bg-gray-800 rounded-md p-2  w-70 h-12 items-center md:border-none md:h-10 md:items-center md:justify-center md:w-10   border-gray-800   transition-all duration-200 ease-in-out dark:text-white dark:border-gray-800 hover:dark:border-white ' > <DarkMode /> <p className="text-[16px]">Light / Dark Mode</p> </div>
 
           
         </div>
