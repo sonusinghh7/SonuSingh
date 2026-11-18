@@ -105,7 +105,7 @@ const HamburgerMenu = ({ className = "" }) => {
             <p className="text-[20px] md:hidden">Send a mail</p>
           </a>
           <a
-            href="/SonuSinghResume18nov26.pdf"
+            href="/SonuResume.pdf"
             target="_blank"
             className="flex gap-2 border-gray-00 border-2 rounded-md p-2  w-70 h-12 items-center md:border-none md:h-10 md:items-center md:justify-center md:w-10 hover:border-black hover:bg-black hover:text-white hover:dark:white hover:dark:text-black hover:dark:bg-white border-gray-800   transition-all duration-200 ease-in-out dark:text-white dark:border-white hover:dark:border-white "
           >
