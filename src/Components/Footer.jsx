@@ -29,7 +29,7 @@ const Footer = () => {
         <span>Built with</span> <FaReact className="text-lg lg:text-2xl" />{" "}
         <RiTailwindCssFill className="text-lg lg:text-2xl" />{" "}
         <span className="hidden lg:flex text-sm text-gray-600 font-extrabold">
-          (V 2.1.2)
+          (V 2.1.3)
         </span>{" "}
       </div>
     </div>
